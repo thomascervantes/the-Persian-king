@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Persian King</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: linear-gradient(to bottom, #239f40, #ffffff, #da0000); /* Iranian flag */
+      text-align: center;
+      color: #000;
+    }
+    header {
+      background-color: #FFD700;
+      padding: 30px 0;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    h1 {
+      font-size: 3em;
+      margin: 0;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .subtitle {
+      font-size: 1.2em;
+      margin-top: 10px;
+      font-style: italic;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+    .photo {
+      margin: 15px;
+      border: 5px solid #FFD700;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      background: white;
+    }
+    .photo img {
+      max-width: 300px;
+      height: auto;
+      display: block;
+    }
+    footer {
+      padding: 20px;
+      background: #111;
+      color: white;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>The Persian King</h1>
+    <div class="subtitle">Est. Tehran 🇮🇷 → Bossed Up in the USA</div>
+  </header>
+
+  <div class="gallery">
+    <div class="photo">
+      <img src="https://via.placeholder.com/300x400?text=King+Nima+1" alt="Nima looking boss">
+    </div>
+    <div class="photo">
+      <img src="https://via.placeholder.com/300x400?text=King+Nima+2" alt="Nima flexing wealth">
+    </div>
+    <div class="photo">
+      <img src="https://via.placeholder.com/300x400?text=King+Nima+3" alt="Nima the Legend">
+    </div>
+  </div>
+
+  <footer>
+    Website proudly made by Nima.  
+    <br>Real kings don’t use templates.
+  </footer>
+
+</body>
+</html>
